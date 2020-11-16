@@ -121,7 +121,7 @@ super + {Left,Down,Up,Right}
 super + b
     polybar-msg cmd show
 # hide bar on key release
-@super + b
+super + n
     polybar-msg cmd hide`
     
 # volume control
