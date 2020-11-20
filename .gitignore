@@ -2,5 +2,5 @@
 !.gitignore
 !.xinitrc
 !.config/
-Downloads/
+*/
 README.md
