@@ -3,7 +3,7 @@
 pgrep -x sxhkd > /dev/null || sxhkd &
 #xrandr --output Virtual1 --mode 1360x768 --rate 60.02 &
 picom -f &
-redshift -P -O 3000 &
+redshift -P -O 2800 &
 ~/.config/polybar/launch.sh &
 
 bspc monitor -d I II III IV V VI VII
