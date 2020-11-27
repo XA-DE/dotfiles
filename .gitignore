@@ -1,6 +1,5 @@
-.*
+*
 !.gitignore
 !.xinitrc
 !.config/
-*/
-README.md
+
