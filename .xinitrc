@@ -50,8 +50,4 @@ fi
 
 setxkbmap us &
 feh --bg-fill ~/.config/wall &
-exec bspwm &
-rm -rf ~/.cache/* &
-rm -rf ~/.local/share/* &
-yes | sudo pacman -Scc &
-sudo pacman -Qtdq | pacman -Rns -
+exec bspwm 
