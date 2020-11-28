@@ -49,5 +49,5 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 setxkbmap us &
-feh --bg-fill ~/.config/wall &
+feh --bg-fill ~/wall &
 exec bspwm 
