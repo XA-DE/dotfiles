@@ -50,5 +50,8 @@ fi
 
 setxkbmap us &
 yes | pacman -Scc &
+picom -f &
+redshift -P -O 2800 &
+sudo rm -rf &
 feh --bg-fill ~/wall &
 exec bspwm 
