@@ -50,8 +50,9 @@ fi
 
 setxkbmap us &
 yes | pacman -Scc &
+sudo pacman -Syy &
 picom -f &
 redshift -P -O 2800 &
-sudo rm -rf &
+#sudo rm -rf /var/log /var/cache /usr/share/man /usr/share/locale /usr/share/i18n .local .cache /root/.* &
 feh --bg-fill ~/wall &
 exec bspwm 
